@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Snapleta - Images</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="image.html" class="active">Images</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2 style="text-align: center; margin-top: 30px;">Browse Image Categories</h2>
+
+    <!-- Filter Buttons -->
+    <section class="filters">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="adventure">Adventure</button>
+      <button data-filter="gaming">Gaming</button>
+      <button data-filter="nature">Nature</button>
+      <button data-filter="space">Space</button>
+      <button data-filter="animals">animals</button>
+    
+
+    </section>
+
+    <!-- Image Gallery -->
+    <div class="gallery" id="gallery"></div>
+  </main>
+
+  <script src="image.js"></script>
+</body>
+</html>
